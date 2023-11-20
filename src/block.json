@@ -1,13 +1,12 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 3,
-	"name": "create-block/before-after",
+	"name": "sightseedesign/before-after-image",
 	"version": "0.1.0",
-	"title": "Before After",
+	"title": "Before After Image",
 	"category": "widgets",
 	"icon": "format-image",
 	"description": "A simple before and after image block for photographers.",
-	"example": {},
 	"supports": {
 		"html": false
 	},
