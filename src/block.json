@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/before-after",
+	"version": "0.1.0",
+	"title": "Before After",
+	"category": "widgets",
+	"icon": "format-image",
+	"description": "A simple before and after image block for photographers.",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+	"attributes" : {
+		"foregroundImage": {
+			"type": "integer"
+		},
+		"backgroundImage": {
+			"type": "integer"
+		}
+	},
+	"textdomain": "before-after",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php"
+}
